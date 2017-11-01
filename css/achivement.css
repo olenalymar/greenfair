@@ -1,0 +1,25 @@
+.achivement {
+	background-color: #bdbdbd;
+	color: #fff;
+}
+
+.container-achivement {
+	padding-top: 100px;
+	padding-bottom: 110px;
+}
+
+.achivement-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.achivement-item span {
+	display: block;
+	text-align: center;
+}
+
+.achivement-fa {
+	font-weight: normal;
+	font-size: 78px;
+	color: var(--green);
+}

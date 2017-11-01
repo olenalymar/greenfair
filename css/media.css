@@ -1,0 +1,189 @@
+@media screen and (max-width: 1200px) {
+	.articles-posts {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.articles {
+		max-width: 760px;
+		flex-basis: auto;
+	}
+
+	.posts {
+		flex-basis: auto;
+		padding-top: 40px;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+	.nav-item {
+		padding: 40px 14px;
+	}
+
+	.nav-item:last-child {
+		padding-right: 2px;
+	}
+
+	.logo {
+		padding-top: 20px;
+	}
+
+	.message-name, .message-email {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.container-header-nav {
+		flex-direction: column;
+	}
+
+	.logo {
+		margin: 0 auto;
+	}
+
+	.menu {
+		height: auto;
+	}
+
+	.navigation {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.slider-heading {
+		font-size: 37px;
+	}
+
+	.slider-heading-span {
+		font-size: 57px;
+	}
+
+	.slider-span {
+		font-size: 15px;
+	}
+	
+	.message-name, .message-email {
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 959px) {
+	
+	.navigation {
+		flex-direction: column;
+	}
+
+	.nav-item {
+		display: block;
+		text-align: center;
+		padding: 20px;
+		border-bottom: none;
+	}
+
+	.nav-item:hover {
+		border-bottom: none;
+		background-color: var(--green);
+		color: #fff;
+
+	}
+
+	.services-list {
+		flex-direction: column;
+	}
+
+	.container-join {
+		flex-direction: column;
+	}
+
+	.blog-posts-list {
+		flex-direction: column;
+	}
+
+	.blog-posts-item {
+		margin: 10px auto;
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+	.achivement-fa {
+		font-size: 50px;
+	}
+
+	.achivement-number {
+		font-size: 25px;
+	}
+
+	.achivement-text {
+		font-size: 12px;
+	}
+
+	.categories-list {
+		flex-wrap: wrap;
+	}
+
+	.event-article {
+		display: block;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.article-img {
+		width: 380px;
+		max-width: 100%;
+	}
+
+	.article-container {
+		width: 380px;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.contact-item {
+		display: block;
+	}
+}
+
+
+@media screen and (max-width: 460px) {
+	.container-header-contact {
+		display: block;
+	}
+
+	.slider-heading {
+		font-size: 27px;
+	}
+
+	.slider-heading-span {
+		font-size: 37px;
+	}
+
+	.slider-span {
+		font-size: 13px;
+	}
+
+	.testimonials-list {
+		flex-direction: column;
+	}
+
+	.testimonials-item {
+		width: 100%;
+	}
+
+	.container-buy {
+		flex-direction: column;
+	}
+
+	.info-message {
+		flex-direction: column;
+	}
+
+	.office-info, .drop-message {
+		flex-basis: auto;
+	}
+}

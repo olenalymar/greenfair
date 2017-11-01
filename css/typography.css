@@ -1,0 +1,201 @@
+html {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+}
+
+/*:not(.fa) {
+	font-family: "Open Sans", sans-serif;
+}
+*/
+.contact {
+	font-size: 12px;
+}
+
+.social-item:hover {
+	color: var(--green);
+}
+
+.logo {
+	font-family: "Roboto Slab", serif;
+	font-size: 29px;
+	color: var(--darkgrey);
+	font-weight: 700;
+	padding-left: 12px;
+	transition: .5s;
+}
+
+.logo:hover {
+	color: var(--green);
+}
+
+.logo::before {
+	content: url("../images/leaves.png");
+	display: block;
+	padding-left: 17px;
+	margin-bottom: -20px;
+}
+
+.nav-item:hover {
+	color: var(--green);
+	border-bottom: 5px solid var(--green);
+}
+
+.nav-link {
+	font-family: "Roboto Slab", serif;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.slider-heading,
+.slider-heading-span,
+.slider-span {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Lato", sans-serif;
+	
+}
+
+.slider-heading {
+	font-size: 43px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
+
+.slider-heading-span {
+	font-size: 70px;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+
+
+.slider-span {
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding-bottom: 45px;
+	display: block;
+}
+
+.section-heading {
+	font-family: "Roboto Slab", serif;
+	font-size: 36px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--headingsgrey);
+	letter-spacing: .5px;
+}
+
+.section-subheading {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	padding-bottom: 55px;
+	letter-spacing: .5px;
+}
+
+.services-heading {
+	display: block;
+	font-family: "Roboto Slab", serif;
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 27px;
+	padding-bottom: 17px;
+	text-transform: uppercase;
+	text-align: center;
+	transition: .4s;
+}
+
+.services-text {
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.join-heading {
+	font-size: 45px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.join-heading span {
+	color: var(--green);
+}
+
+.join-text {
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.categories-link {
+	font-family: "Lato", sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.caption {
+	text-transform: uppercase;
+	color: #fff;
+	font-family: "Roboto Slab", serif;
+}
+
+.section-heading-achivement,
+.section-subheading-achivement {
+	color: #fff;
+}
+
+.achivement-number {
+	font-family: "Roboto Slab", serif;
+	font-size: 37px;
+	border-bottom: 1px solid #fff;
+	padding: 15px 0;
+}
+
+.achivement-text {
+	font-family: "Roboto Slab", serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding-top: 17px;
+}
+
+.event-article-heading {
+	font-family: "Roboto Slab", serif;
+	font-size: 18px;
+	color: #444;
+	text-transform: capitalize;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.date {
+	font-family: "Roboto Slab", serif;
+	font-size: 14px;
+	color: #6b6b6b;
+	text-align: center;
+	padding-bottom: 16px;
+}
+
+.article-text {
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	padding-bottom: 16px;
+}
+
+.posts-heading {
+	display: block;
+	font-family: "Roboto Slab", serif;
+	font-size: 18px;
+	font-weight: 600;
+	padding-bottom: 17px;
+}
+
+.posts-text {
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+}

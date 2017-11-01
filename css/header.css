@@ -1,0 +1,140 @@
+.container-header {
+	padding-top: 31px;
+}
+
+.container-header-contact {
+	display: flex;
+	justify-content: space-between;
+	padding: 18px 25px 15px 15px;
+}
+
+.contact {
+	background-color: var(--lightgrey);
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.contact-item,
+.social-item {
+	display: inline-block;
+}
+
+.contact-item {
+	min-height: 17px;
+	padding: 0 13px;
+
+}
+
+.address {
+	padding-left: 0;
+}
+
+.phone {
+	padding-left: 2px;
+}
+
+.address {
+	border-right: 1px solid #f2f2f2;
+}
+
+.fa {
+	padding-left: 8px;
+	padding-right: 8px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.social .fa {
+	font-size: 13px;
+}
+
+.menu {
+	height: 105px;
+}
+
+.container-header-nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	display: block;
+	max-width: 215px;
+	padding-top: 24px;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 40px 16px;
+	border-bottom: 5px solid transparent;
+}
+
+.navigation {
+
+}
+
+.carousel {
+
+}
+
+.slider {
+	background: url("../images/slider.jpg") 50% 50% no-repeat;
+	background-size: cover;
+	/*height: 785px;*/
+	height: calc(100vh - 196px);
+}
+
+.slider1 {
+	background: url("../images/slider1.jpg") 50% 50% no-repeat;
+	background-size: cover;
+	/*height: 785px;*/
+	height: calc(100vh - 196px);
+}
+
+.slider2 {
+	background: url("../images/slider2.jpg") 50% 50% no-repeat;
+	background-size: cover;
+	/*height: 785px;*/
+	height: calc(100vh - 196px);
+}
+
+.overlay {
+  background-color: rgba(189, 190, 189, .7);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  transition: 1.5s ease-in;	
+}
+
+.overlay:hover {
+	background-color: rgba(189, 190, 189, 0);
+}
+
+.slider-text {
+	height: initial;
+	align-self: center;
+}
+
+.button {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 14px 45px 17px;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 10px;
+}
+
+.black {
+	background-color: #000;
+	color: #fff;
+	transition: .9s;
+}
+
+.black:hover {
+	background-color: transparent;
+	text-shadow: 0 0 20px #fff;
+	box-shadow: 0 0 20px #fff;
+}
