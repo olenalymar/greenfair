@@ -9,4 +9,23 @@ $(document).ready(function(){
     infinite: true,
     speed: 500
   });
+
+$('.carousel-testimonials').slick({
+  dots: true,
+  arrows: false,
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false
+      }
+    }
+  ]
+});
+
 });
