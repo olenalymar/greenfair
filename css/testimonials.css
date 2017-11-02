@@ -14,8 +14,10 @@
 
 .testimonials-item {
 	width: 49%;
-	max-width: 570px;
+	/*max-width: 570px;*/
 	padding-top: 50px;
+	margin-left: 20px;
+    margin-right: 20px;
 }
 
 .blockquote {
