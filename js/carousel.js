@@ -7,7 +7,7 @@ $(document).ready(function(){
     // autoplay: true,
     // autoplaySpeed: 2000,
     infinite: true,
-    speed: 500
+    speed: 700
   });
 
 $('.carousel-testimonials').slick({
