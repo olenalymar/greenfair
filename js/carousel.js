@@ -27,5 +27,15 @@ $('.carousel-testimonials').slick({
     }
   ]
 });
+});
 
+
+$('nav a').on('click', function(event) {
+ event.preventDefault();
+ var id = $(this).attr('href')
+ $('html, body')
+   .stop()
+   .animate({
+     scrollTop: $(id).offset().top
+   });
 });
